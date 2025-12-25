@@ -389,4 +389,31 @@
       font-size: 1.5rem;
     }
   }
+/* =====================
+   Mobile / Responsive
+===================== */
+@media (max-width: 600px) {
+  .cta {
+    display: flex;
+    flex-direction: column;  /* Stack buttons vertically */
+    align-items: center;
+    gap: 10px;               /* Space between buttons */
+  }
+
+  .cta .btn {
+    width: 80%;              /* Buttons take more width on mobile */
+    text-align: center;
+    margin-right: 0;         /* Remove right margin */
+  }
+
+  /* Optional: Adjust hero text for mobile */
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
   
