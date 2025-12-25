@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sargo Café | 24-Hour Coffee Haven</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">Sargo Café</div>
+  <div class="nav-links">
+    <a href="#" onclick="openModal('about')">About</a>
+    <a href="#" onclick="openModal('reviews')">Reviews</a>
+    <a href="#" onclick="openModal('visit')">Visit</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <span class="tagline">Coffee • Pastries • Snacks</span>
+    <h1>Your Cozy 24-Hour Coffee Haven</h1>
+    <p>Chill, study, or work anytime in a warm and aesthetic café.
+
+
+    </p>
+    <div class="cta">
+      <a href="#visit" class="btn primary">Visit Us</a>
+      <a href="#about" class="btn secondary">Learn More</a>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2>About Sargo Café</h2>
+    <p>
+      Sargo Café is a thoughtfully designed coffee shop where comfort meets quality.
+      Whether you’re studying, working, or unwinding, our cozy ambiance, handcrafted
+      coffee, pastries, and snacks create the perfect space—any time of the day.
+    </p>
+
+    <div class="features">
+      <div class="card">☕ Quality Espresso</div>
+      <div class="card">🛋 Cozy Aesthetic Space</div>
+      <div class="card">📚 Ideal for Study & Work</div>
+      <div class="card">🌙 Open 24 Hours</div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section gallery">
+  <div class="container">
+    <h2>Our Space & Coffee</h2>
+
+    <div class="gallery-grid">
+      <img src="images/logoish.jpg" alt="Cafe interior">
+      <img src="images/backg.jpg" alt="Coffee drink">
+      <img src="images/coffe.jpg" alt="Coffee drink">
+    </div>
+  </div>
+</section>
+
+
+<section id="reviews" class="section light">
+  <div class="container">
+    <h2>Customer Reviews</h2>
+
+    <div class="reviews-grid">
+      <div class="review-card">
+        ⭐⭐⭐⭐⭐
+        <p>“I recently stopped by Sargo Café and was pleasantly surprised by the inviting ambience. The space is warm and thoughtfully designed, with soft lighting, comfy seating, and a gentle playlist that makes it easy to relax or focus. The staff were friendly and attentive, greeting me with a smile as I stepped in. 
+          As for my order, I went with strawberries and cream. The fruit was fresh and bright, and the cream added a light, indulgent contrast without being too heavy. It felt like a treat that still suited a relaxed night visit.”</p>
+        <span>— Driggs Corales</span>
+      </div>
+
+      <div class="review-card">
+        ⭐⭐⭐⭐⭐
+        <p>“So cozy and affordable. The staff are accommodating and kind. Our new favorite café!”</p>
+        <span>— Maria Eloisa</span>
+      </div>
+
+      <div class="review-card">
+        ⭐⭐⭐⭐⭐
+        <p>“It's so cozy here and mababait yung nag s-serve samin. The food and drinks are also delicious, and affordable, and so I definitely recommend this place🤞.”</p>
+        <span>— Reese Feir</span>
+      </div>
+
+      <div class="review-card">
+        ⭐⭐⭐⭐⭐
+        <p>“Legit espresso taste! Cozy atmosphere and great for working.”</p>
+        <span>— Ced Chuang</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="visit" class="section visit">
+  <div class="container">
+    <h2>Visit Us</h2>
+    <p class="address">
+      📍 Blk 31 Lot 74 Lapu-Lapu Ave, NBBS Dagat-Dagatan,<br>
+      Navotas, Philippines 1485
+    </p>
+    <p class="hours">⏰ Open 24 Hours</p>
+
+    <div class="socials">
+      <a href="https://instagram.com/sargo.cafee" target="_blank">Instagram</a>
+      <a href="https://tiktok.com/@sargo.cafee" target="_blank">TikTok</a>
+    </div>
+  </div>
+</section>
+
+<div class="scrolling-divider">
+  <div class="scrolling-text">
+    ☕ Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café ☕
+  </div>
+  <div class="scrolling-text">
+    ☕ Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café • Sargo Café ☕
+  </div>
+</div>
+
+
+<section id="contact" class="section contact">
+  <div class="container contact-container">
+
+    <div class="contact-text">
+      <h2>Get in Touch</h2>
+      <p>
+        Have questions or feedback?
+        Send us a message and we’ll get back to you as soon as possible.
+      </p>
+
+      <div class="contact-info">
+        <p>📍 Navotas, Philippines</p>
+        <p>⏰ Open 24 Hours</p>
+        <p>📧 sargocafe@email.com</p>
+      </div>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Contact Number">
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<div class="modal-overlay" id="modal">
+  <div class="modal-box">
+    <span class="modal-close" onclick="closeModal()">×</span>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<!-- ===== MODAL JAVASCRIPT (PUT THIS HERE) ===== -->
+<script>
+  const modal = document.getElementById("modal");
+  const content = document.getElementById("modal-content");
+  
+  function openModal(type) {
+    document.body.classList.add("modal-open");
+  
+    if (type === "about") {
+      content.innerHTML = `
+        <h2>About Sargo Café</h2>
+        <p>
+          Sargo Café is a thoughtfully designed coffee shop where comfort meets quality. Whether you’re studying, working, or unwinding, our cozy ambiance, handcrafted coffee, pastries, and snacks create the perfect space—any time of the day.
+        </p>
+      `;
+    }
+  
+    if (type === "reviews") {
+      content.innerHTML = `
+        <h2>Customer Reviews</h2>
+
+        <div class="modal-reviews">
+
+           <div class="modal-review">
+             ⭐⭐⭐⭐⭐
+        <p>“I recently stopped by Sargo Café and was pleasantly surprised by the inviting ambience. The space is warm and thoughtfully designed, with soft lighting, comfy seating, and a gentle playlist that makes it easy to relax or focus. The staff were friendly and attentive, greeting me with a smile as I stepped in. As for my order, I went with strawberries and cream. The fruit was fresh and bright, and the cream added a light, indulgent contrast without being too heavy. It felt like a treat that still suited a relaxed night visit.”</p>
+        <span>— Driggs Corales</span>
+      </div>
+      <div class="modal-review">
+        ⭐⭐⭐⭐⭐
+        <p>
+          “So cozy and affordable. The staff are accommodating and kind.
+          Our new favorite café!”
+        </p>
+        <span>— Maria Eloisa</span>
+      </div>
+
+      <div class="modal-review">
+        ⭐⭐⭐⭐⭐
+        <p>
+          “Legit espresso taste! Cozy atmosphere and great for working.”
+        </p>
+        <span>— Ced Chuang</span>
+      </div>
+
+      <div class="modal-review">
+        ⭐⭐⭐⭐⭐
+        <p>
+          “It's so cozy here and mababait yung nag s-serve samin.
+          Definitely recommended 🤞”
+        </p>
+        <span>— Reese Feir</span>
+      </div>
+
+    </div>
+  `;
+}
+  
+    if (type === "visit") {
+      content.innerHTML = `
+        <h2>Visit Us</h2>
+        <p>
+          📍 Blk 31 Lot 74 Lapu-Lapu Ave,<br>
+          Navotas City
+        </p>
+        <p>⏰ Open 24 Hours</p>
+      `;
+    }
+  
+    modal.classList.add("active");
+  }
+  
+  function closeModal() {
+    modal.classList.remove("active");
+    document.body.classList.remove("modal-open");
+  }
+  
+  /* CLICK OUTSIDE TO CLOSE */
+  modal.addEventListener("click", function(e) {
+    if (e.target === modal) closeModal();
+  });
+  
+  /* ESC KEY TO CLOSE */
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") closeModal();
+  });
+  </script>
+  <!-- ===== END SCRIPT ===== -->
+  
+
+<footer>
+  <p>© 2025 Sargo Café • Brewed for comfort. Open anytime.</p>
+</footer>
+
+</body>
+</html>
